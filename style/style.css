@@ -1,3 +1,25 @@
+/* shared styles */
+.title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subtitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+
 /* THUMBNAIL STYLE */
 
 .thumb{
@@ -46,6 +68,64 @@ text-align: center;
 
 /* QUESTION STYLE  */
 
-.ans{
-    display: flex;
+.question{
+    padding: 80px 97px;
 }
+.ans{
+    padding: 48px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+.ans-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;  
+}
+.ans-subtitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.ans-btn{
+    
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px 12px 20px;
+
+}
+
+/* ispiration style */
+
+.ispiration{
+    gap: 48px;
+    padding: 0px 144px;
+}
+.yt{
+    display: flex;
+    justify-content: center;
+    border-bottom: 20px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
+
+/* target style */
