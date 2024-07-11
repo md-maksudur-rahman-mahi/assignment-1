@@ -80,7 +80,7 @@ text-align: center;
 
 .question{
     padding: 80px 97px;
-    background-color: rgba(22, 141, 38, 0.103);
+    background-color: rgba(13, 19, 33, 0.02);
     margin: 150px ;
 }
 .ans{
@@ -88,7 +88,7 @@ text-align: center;
     margin-bottom: 32px;
     display: flex;
     justify-content: center;
-    background-color: rgb(228, 224, 220);
+    background-color: rgb(255, 255, 255);
 }
 .ans-title{
     color: rgba(13, 19, 33, 0.7);
@@ -124,29 +124,34 @@ padding: 12px 20px 12px 20px;
 
 /* ispiration style */
 
-
-
+iframe{
+    border-radius: 16px;  
+}
 .ispiration{
-    gap: 48px;
-    padding: 0px 144px;
-    margin: 150px
+    margin: 150px;
+
 }
 .yt{
     display: flex;
     justify-content: center;
-    padding: 32px;
+    padding: 32px 0px;
     border:1px solid rgb(184, 182, 182); 
     border-radius: 16px;
+    padding: 32px;
 }
 
 /* target style */
 .target{
-    margin: 150px;
+    
+}
+.target-heading{
+    margin-bottom:48px;
 }
 .target-content{
     display: flex;
     justify-content: center;
-    gap:24px;
+    align-items: center;
+    gap: 24px;
 
 } 
 .target1 {
@@ -177,13 +182,39 @@ padding: 12px 20px 12px 20px;
    justify-content: center;
    margin: 150px;
 }
+
+.support-title
+{color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;}
+
+ .support-subtitle{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+ }   
+ .support-opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+ }
 .supp-btn{
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
+    padding: 17px 20px;
 }
 .supp-input{
-
-padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+padding: 19px 20px ;
 }
 
 /* footer design */
