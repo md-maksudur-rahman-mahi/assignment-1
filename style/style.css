@@ -18,7 +18,9 @@ letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
 }
-
+div{
+    
+}
 
 /* THUMBNAIL STYLE */
 
@@ -70,6 +72,8 @@ text-align: center;
 
 .question{
     padding: 80px 97px;
+    background-color: rgba(22, 141, 38, 0.103);
+    margin: 150px ;
 }
 .ans{
     padding: 48px;
@@ -116,6 +120,7 @@ padding: 12px 20px 12px 20px;
 .ispiration{
     gap: 48px;
     padding: 0px 144px;
+    margin: 150px
 }
 .yt{
     display: flex;
@@ -129,3 +134,70 @@ padding: 12px 20px 12px 20px;
 }
 
 /* target style */
+.target{
+    margin: 150px;
+}
+.target-content{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+
+} 
+.target1 {
+    background-color:rgba(255, 76, 30, 0.05)  ;
+    padding: 40px;
+
+}
+.target2 {
+    background-color:rgba(0, 76, 232, 0.05)  ;
+    padding: 40px;
+
+}
+.target3 {
+    background-color:rgba(255, 223, 0, 0.05)  ;
+    padding: 40px;
+
+    
+}
+
+/* support styles */
+.support{
+    background-image: url("/images/handshake.jpg");
+   padding: 64px 48px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 150px;
+}
+.supp-btn{
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.supp-input{
+
+padding: 19px 20px 19px 20px;
+}
+
+/* footer design */
+.footer{
+    margin-top: 150px;
+}
+.footer-content{
+ background-color: rgba(102, 100, 100, 0.315);
+ display: flex;
+  justify-content: space-between;
+  padding: 32px 150px ;
+}
+.footer-icons{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.footer-title{
+    margin-top: 25px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+}
