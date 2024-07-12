@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
 /* shared styles */
 .title{
     color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
 text-align: center;
+margin: 0 24px 24px;
 }
 .subtitle{
     color: rgb(13, 19, 33);
@@ -15,6 +19,8 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+margin: 0 300px 24px;
+padding: 0 48px;
 }
 div{
     
@@ -26,13 +32,15 @@ div{
     background-image: url("/images/Hero-bg.png");
     background-size: cover;
     background-position: center;
+    font-family: Azeret Mono;
 }
 .thumb-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0 220px;
+    padding: 26px 220px;
+    gap: 32px;
 
 
   
@@ -82,21 +90,39 @@ text-align: center;
     padding: 80px 97px;
     background-color: rgba(13, 19, 33, 0.02);
     margin: 150px ;
+    font-family: Azeret Mono;
+}
+.ques-heading{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 48px;
+   margin: 0 150px 48px;
+   
+}
+.ques-subtitle{
+    font-size: 16px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+margin: 0 48px ;
+padding: 0 48px;
 }
 .ans{
     padding: 48px;
     margin-bottom: 32px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgb(255, 255, 255);
 }
 .ans-title{
     color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
-    text-align: left;  
+    text-align: left; 
+    margin: 24px 250px 0 0px;
 }
 .ans-subtitle{
     color: rgb(13, 19, 33);
@@ -106,6 +132,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 opacity: 0.7;
+margin: 24px 250px 0 0px;
 }
 .ans-btn{
     
@@ -114,12 +141,11 @@ opacity: 0.7;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
-letter-spacing: 0%;
 text-align: center;box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 padding: 12px 20px 12px 20px;
-
+margin: 24px 0;
 }
 
 /* ispiration style */
@@ -129,6 +155,7 @@ iframe{
 }
 .ispiration{
     margin: 150px;
+    font-family: Azeret Mono;
 
 }
 .yt{
@@ -142,10 +169,15 @@ iframe{
 
 /* target style */
 .target{
-    
+    font-family: Azeret Mono;
+margin: 150px;
 }
 .target-heading{
-    margin-bottom:48px;
+    margin: 48px;
+    gap: 48px;
+}
+.tar-subtitle{
+    margin: 0 480px;
 }
 .target-content{
     display: flex;
@@ -153,21 +185,34 @@ iframe{
     align-items: center;
     gap: 24px;
 
+
 } 
+.target-content a{
+    color: black;
+    font-weight: bold;
+}
+.target-content h1, p,a{
+    margin: 24px 250px 24px 0;
+}
+.target-content p{
+    opacity: .7;
+    line-height: 26px;
+    
+}
 .target1 {
     background-color:rgba(255, 76, 30, 0.05)  ;
     padding: 40px;
-
+    border-radius: 16px;
 }
 .target2 {
     background-color:rgba(0, 76, 232, 0.05)  ;
     padding: 40px;
-
+    border-radius: 16px;
 }
 .target3 {
     background-color:rgba(255, 223, 0, 0.05)  ;
     padding: 40px;
-
+    border-radius: 16px;
     
 }
 
@@ -181,11 +226,12 @@ iframe{
    flex-direction: column;
    justify-content: center;
    margin: 150px;
+   font-family: Azeret Mono;
+   border-radius: 16px;
 }
 
 .support-title
 {color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
@@ -194,7 +240,6 @@ iframe{
 
  .support-subtitle{
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
@@ -206,20 +251,26 @@ text-align: center;
     justify-content: center;
     align-items: center;
     gap: 16px;
- }
+}
+.supp-input{
+    font-size: 16px;
+    border-radius: 8px;
+padding: 19px 20px ;
+border: 0;
+width: 548px;
+}
 .supp-btn{
+    font-size: 20px;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
     padding: 17px 20px;
-}
-.supp-input{
-    border-radius: 8px;
-padding: 19px 20px ;
+    border: 0;
 }
 
 /* footer design */
 .footer{
     margin-top: 150px;
+    font-family: Azeret Mono;
 }
 .footer-content{
  background-color: rgba(102, 100, 100, 0.315);
