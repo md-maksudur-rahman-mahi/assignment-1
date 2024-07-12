@@ -221,31 +221,34 @@ margin: 150px;
     background-image: url("/images/handshake.jpg");
     background-size: cover;
     background-position: center;
-   padding: 64px 48px;
+    padding: 64px 48px;
+    margin: 150px;
+   font-family: Azeret Mono;
+    border-radius: 16px;
+
+}
+.supp-container{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin: 150px;
-   font-family: Azeret Mono;
-   border-radius: 16px;
+   align-items: center;
+   text-align: center;
+   
 }
-
-.support-title
-{color: rgb(255, 255, 255);
+.support-title{
+    color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: center;}
+    }
 
  .support-subtitle{
     color: rgb(255, 255, 255);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
- }   
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+    margin: 24px 0 24px 24px;
+    }   
  .support-opt{
     display: flex;
     justify-content: center;
@@ -276,17 +279,18 @@ width: 548px;
  background-color: rgba(102, 100, 100, 0.315);
  display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 32px 150px ;
 }
 .footer-icons{
     list-style: none;
     display: flex;
     gap: 24px;
+    align-items:baseline ;
 }
 .footer-title{
-    margin-top: 25px;
     color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
