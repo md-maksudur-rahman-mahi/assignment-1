@@ -29,7 +29,7 @@ div{
 /* THUMBNAIL STYLE */
 
 .thumb{
-    background-image: url("/images/Hero-bg.png");
+    background-image: url("../images/Hero-bg.png");
     background-size: cover;
     background-position: center;
     font-family: Azeret Mono;
@@ -217,7 +217,7 @@ margin: 150px;
 
 /* support styles */
 .support{
-    background-image: url("/images/handshake.jpg");
+    background-image: url("../images/handshake.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -238,7 +238,7 @@ margin: 150px;
    
 }
 .support-title{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 32px;
     font-weight: 700;
     }
